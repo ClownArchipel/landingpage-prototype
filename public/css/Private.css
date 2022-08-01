@@ -1,0 +1,85 @@
+/* Navbar css */
+.privnav{
+    background-color: #00a652;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.privnav a{
+    justify-content: space-between;
+}
+
+/* carousel */
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* konten foto */
+
+.homedua{
+    width: 50%;
+    margin-right: 10%;
+}
+
+.homedua img:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.galeri{
+    margin: 10px 50px;
+}
+
+.galeri img{
+    transition: 1s;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    width: 23%;
+}
+.galeri img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+#imglight{
+    background-image: linear-gradient(90deg ,#0eed7a,#1bdd7d);
+}
+
+/*untuk layar device berukuran tablet*/
+@media screen and (max-width: 768px) {
+.galeri img{
+        transition: 1s;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        width: 30%;
+   }
+
+.homedua{
+    width: 60%;
+    margin-right: 10%;
+    }
+}
+
+
+
+/*untuk layar device berukuran android*/
+@media screen and (max-width: 576px) {
+    .galeri img{
+        transition: 1s;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        width: 35%;
+    }
+
+.homedua{
+    width: 70%;
+    margin-right: 10%;
+    }
+}
